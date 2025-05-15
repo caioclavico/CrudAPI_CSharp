@@ -1,3 +1,5 @@
+using CrudAPI_CSharp.Routes;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -15,5 +17,6 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.PessoaRotas();
 
 app.Run();
