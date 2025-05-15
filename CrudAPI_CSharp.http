@@ -1,0 +1,6 @@
+@CrudAPI_CSharp_HostAddress = http://localhost:5140
+
+GET {{CrudAPI_CSharp_HostAddress}}/api/
+Accept: application/json
+
+###
